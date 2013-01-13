@@ -1,0 +1,15 @@
+avr.D6  ==> sgm7.A -> vcd
+avr.D7  ==> sgm7.B -> vcd
+avr.B0  ==> sgm7.C -> vcd
+avr.B1  ==> sgm7.D -> vcd
+avr.B2 ==> sgm7.E -> vcd
+avr.B3 ==> sgm7.F -> vcd
+avr.B4 ==> sgm7.G -> vcd
+avr.B5 ==> sgm7.P -> vcd
+
+avr.D2 ==> sgm7.D0 -> vcd
+avr.D3 ==> sgm7.D1 -> vcd
+avr.D4 ==> sgm7.D2 -> vcd
+avr.D5 ==> sgm7.D3 -> vcd
+
+
