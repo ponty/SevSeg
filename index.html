@@ -1,0 +1,560 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>SevSeg &mdash; SevSeg  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="SevSeg  documentation" href="#" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="#">SevSeg  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="sevseg">
+<h1>SevSeg<a class="headerlink" href="#sevseg" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<p>All images are generated from source code using the simulator.</p>
+<div class="section" id="snippets">
+<h3>Snippets<a class="headerlink" href="#snippets" title="Permalink to this headline">¶</a></h3>
+<p>Template:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Comment</th>
+<th class="head">Code snippet</th>
+<th class="head">Display</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\x80\x81\x82\x84</span><span class="s">&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_00.png" class="first last" src="_images/generated_disp_00.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\x88\x90\xA0\xC0</span><span class="s">&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_01.png" class="first last" src="_images/generated_disp_01.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\xFF</span><span class="s">   &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_02.png" class="first last" src="_images/generated_disp_02.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\x00\x01\x02\x03</span><span class="s">&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_03.png" class="first last" src="_images/generated_disp_03.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\x04\x05\x06\x07</span><span class="s">&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_04.png" class="first last" src="_images/generated_disp_04.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\x08\x09\x0A\x0B</span><span class="s">&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_05.png" class="first last" src="_images/generated_disp_05.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\x0C\x0D\x0E\x0F</span><span class="s">&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_06.png" class="first last" src="_images/generated_disp_06.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;1234&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_07.png" class="first last" src="_images/generated_disp_07.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;5678&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_08.png" class="first last" src="_images/generated_disp_08.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;90  &quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_09.png" class="first last" src="_images/generated_disp_09.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;ABCD&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_10.png" class="first last" src="_images/generated_disp_10.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;EFGH&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_11.png" class="first last" src="_images/generated_disp_11.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;IJKL&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_12.png" class="first last" src="_images/generated_disp_12.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;MNOP&quot;</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_13.png" class="first last" src="_images/generated_disp_13.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;QRST&quot;</span><span class="p">,</span> <span class="mi">7</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_14.png" class="first last" src="_images/generated_disp_14.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;UVWX&quot;</span><span class="p">,</span> <span class="mi">8</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_15.png" class="first last" src="_images/generated_disp_15.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;YZ  &quot;</span><span class="p">,</span> <span class="mi">9</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_16.png" class="first last" src="_images/generated_disp_16.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;abcd&quot;</span><span class="p">,</span> <span class="mi">10</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_17.png" class="first last" src="_images/generated_disp_17.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;efgh&quot;</span><span class="p">,</span> <span class="mi">11</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_18.png" class="first last" src="_images/generated_disp_18.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;ijkl&quot;</span><span class="p">,</span> <span class="mi">12</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_19.png" class="first last" src="_images/generated_disp_19.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;mnop&quot;</span><span class="p">,</span> <span class="mi">13</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_20.png" class="first last" src="_images/generated_disp_20.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;qrst&quot;</span><span class="p">,</span> <span class="mi">14</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_21.png" class="first last" src="_images/generated_disp_21.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;uvwx&quot;</span><span class="p">,</span> <span class="mi">15</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_22.png" class="first last" src="_images/generated_disp_22.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;yz  &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_23.png" class="first last" src="_images/generated_disp_23.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;!#$ &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_24.png" class="first last" src="_images/generated_disp_24.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;%&amp;()&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_25.png" class="first last" src="_images/generated_disp_25.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;&#39;</span><span class="se">\&quot;</span><span class="s">  &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_26.png" class="first last" src="_images/generated_disp_26.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;*+,-&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_27.png" class="first last" src="_images/generated_disp_27.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;./  &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_28.png" class="first last" src="_images/generated_disp_28.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;&lt;=&gt;?&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_29.png" class="first last" src="_images/generated_disp_29.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;:;@ &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_30.png" class="first last" src="_images/generated_disp_30.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\\</span><span class="s">[]^&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_31.png" class="first last" src="_images/generated_disp_31.png" />
+</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;_`|,&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_32.png" class="first last" src="_images/generated_disp_32.png" />
+</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td><div class="first last highlight-c"><div class="highlight"><pre><span class="n">disp</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="s">&quot;~   &quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</td>
+<td><img alt="_images/generated_disp_33.png" class="first last" src="_images/generated_disp_33.png" />
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="full-programs">
+<h3>Full programs<a class="headerlink" href="#full-programs" title="Permalink to this headline">¶</a></h3>
+<p>Program (SevSeg/Example/SevSeg_Counter/SevSeg_Counter.ino):</p>
+<div class="highlight-c"><div class="highlight"><pre><span class="cm">/*</span>
+<span class="cm"> 7-23-2012</span>
+<span class="cm"> Spark Fun Electronics</span>
+<span class="cm"> Nathan Seidle</span>
+<span class="cm"> </span>
+<span class="cm"> This code is originally based Dean Reading&#39;s Library deanreading@hotmail.com</span>
+<span class="cm"> http://arduino.cc/playground/Main/SevenSegmentLibrary</span>
+<span class="cm"> He didn&#39;t have a license on it so I hope he doesn&#39;t mind me making it public domain: </span>
+<span class="cm"> This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).</span>
+<span class="cm"> </span>
+<span class="cm"> This example is a centi-second counter to demonstrate the use of the SevSeg library. To light</span>
+<span class="cm"> the display you have to call myDisplay.DisplayNumber(#, decimalPlace) multiple times a second. Put this</span>
+<span class="cm"> in the main loop.</span>
+<span class="cm"> </span>
+<span class="cm"> SparkFun has a large, 1&quot; 7-segment display that has four digits.</span>
+<span class="cm"> https://www.sparkfun.com/products/11408</span>
+<span class="cm"> Looking at the display like this: 8.8.8.8. pin 1 is on the lower row, starting from the left. </span>
+<span class="cm"> Pin 12 is the top row, upper left pin.</span>
+<span class="cm"> </span>
+<span class="cm"> Pinout:</span>
+<span class="cm"> 1: Segment E</span>
+<span class="cm"> 2: Segment D</span>
+<span class="cm"> 3: Segment DP</span>
+<span class="cm"> 4: Segment C</span>
+<span class="cm"> 5: Segment G</span>
+<span class="cm"> 6: Digit 4</span>
+<span class="cm"> 7: Segment B</span>
+<span class="cm"> 8: Digit 3</span>
+<span class="cm"> 9: Digit 2</span>
+<span class="cm"> 10: Segment F</span>
+<span class="cm"> 11: Segment A</span>
+<span class="cm"> 12: Digit 1</span>
+<span class="cm"> </span>
+<span class="cm"> ToDo:</span>
+<span class="cm"> Picture of setup with pin 1 indicator</span>
+<span class="cm"> Covert big byte array to binary: http://arduino.cc/forum/index.php/topic,39760.0.html</span>
+<span class="cm"> Measure current going through limiting resistors to make sure we&#39;re getting 20mA per segment per digit (should be 80mA for four digits)</span>
+<span class="cm"> </span>
+<span class="cm"> 2264 bytes</span>
+<span class="cm"> 2134 bytes with new BigTime functions</span>
+<span class="cm"> 2214 if full DP support</span>
+<span class="cm"> </span>
+<span class="cm"> */</span>
+
+<span class="cp">#include &quot;SevSeg.h&quot;</span>
+
+<span class="c1">//Create an instance of the object.</span>
+<span class="n">SevSeg</span> <span class="n">myDisplay</span><span class="p">;</span>
+
+<span class="c1">//Create global variables</span>
+<span class="kt">unsigned</span> <span class="kt">long</span> <span class="n">timer</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">deciSecond</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<span class="p">{</span>
+
+  <span class="kt">int</span> <span class="n">displayType</span> <span class="o">=</span> <span class="n">COMMON_CATHODE</span><span class="p">;</span> <span class="c1">//Your display is either common cathode or common anode</span>
+
+  <span class="cm">/*</span>
+<span class="cm">  //This pinout is for a regular display</span>
+<span class="cm">   //Declare what pins are connected to the digits</span>
+<span class="cm">   int digit1 = 2; //Pin 12 on my 4 digit display</span>
+<span class="cm">   int digit2 = 3; //Pin 9 on my 4 digit display</span>
+<span class="cm">   int digit3 = 4; //Pin 8 on my 4 digit display</span>
+<span class="cm">   int digit4 = 5; //Pin 6 on my 4 digit display</span>
+<span class="cm">   </span>
+<span class="cm">   //Declare what pins are connected to the segments</span>
+<span class="cm">   int segA = 6; //Pin 11 on my 4 digit display</span>
+<span class="cm">   int segB = 7; //Pin 7 on my 4 digit display</span>
+<span class="cm">   int segC = 8; //Pin 4 on my 4 digit display</span>
+<span class="cm">   int segD = 9; //Pin 2 on my 4 digit display</span>
+<span class="cm">   int segE = 10; //Pin 1 on my 4 digit display</span>
+<span class="cm">   int segF = 11; //Pin 10 on my 4 digit display</span>
+<span class="cm">   int segG = 12; //Pin 5 on my 4 digit display</span>
+<span class="cm">   int segDP= 13; //Pin 3 on my 4 digit display</span>
+<span class="cm">   */</span>
+
+  <span class="c1">//This pinout is for OpenSegment PCB layout</span>
+  <span class="c1">//Declare what pins are connected to the digits</span>
+  <span class="kt">int</span> <span class="n">digit1</span> <span class="o">=</span> <span class="mi">9</span><span class="p">;</span> <span class="c1">//Pin 12 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">digit2</span> <span class="o">=</span> <span class="mi">16</span><span class="p">;</span> <span class="c1">//Pin 9 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">digit3</span> <span class="o">=</span> <span class="mi">17</span><span class="p">;</span> <span class="c1">//Pin 8 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">digit4</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span> <span class="c1">//Pin 6 on my 4 digit display</span>
+
+  <span class="c1">//Declare what pins are connected to the segments</span>
+  <span class="kt">int</span> <span class="n">segA</span> <span class="o">=</span> <span class="mi">14</span><span class="p">;</span> <span class="c1">//Pin 11 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segB</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="c1">//Pin 7 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segC</span> <span class="o">=</span> <span class="mi">8</span><span class="p">;</span> <span class="c1">//Pin 4 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segD</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span> <span class="c1">//Pin 2 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segE</span> <span class="o">=</span> <span class="mi">7</span><span class="p">;</span> <span class="c1">//Pin 1 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segF</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span> <span class="c1">//Pin 10 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segG</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="c1">//Pin 5 on my 4 digit display</span>
+  <span class="kt">int</span> <span class="n">segDP</span><span class="o">=</span> <span class="mi">5</span><span class="p">;</span> <span class="c1">//Pin 3 on my 4 digit display</span>
+
+  <span class="kt">int</span> <span class="n">numberOfDigits</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span> <span class="c1">//Do you have a 1, 2 or 4 digit display?</span>
+
+  <span class="n">myDisplay</span><span class="p">.</span><span class="n">Begin</span><span class="p">(</span><span class="n">displayType</span><span class="p">,</span> <span class="n">numberOfDigits</span><span class="p">,</span> <span class="n">digit1</span><span class="p">,</span> <span class="n">digit2</span><span class="p">,</span> <span class="n">digit3</span><span class="p">,</span> <span class="n">digit4</span><span class="p">,</span> <span class="n">segA</span><span class="p">,</span> <span class="n">segB</span><span class="p">,</span> <span class="n">segC</span><span class="p">,</span> <span class="n">segD</span><span class="p">,</span> <span class="n">segE</span><span class="p">,</span> <span class="n">segF</span><span class="p">,</span> <span class="n">segG</span><span class="p">,</span> <span class="n">segDP</span><span class="p">);</span>
+  
+  <span class="n">myDisplay</span><span class="p">.</span><span class="n">SetBrightness</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span> <span class="c1">//Set the display to 100% brightness level</span>
+
+  <span class="n">timer</span> <span class="o">=</span> <span class="n">millis</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="c1">//Example ways of displaying a decimal number</span>
+  <span class="kt">char</span> <span class="n">tempString</span><span class="p">[</span><span class="mi">10</span><span class="p">];</span> <span class="c1">//Used for sprintf</span>
+  <span class="n">sprintf</span><span class="p">(</span><span class="n">tempString</span><span class="p">,</span> <span class="s">&quot;%4d&quot;</span><span class="p">,</span> <span class="n">deciSecond</span><span class="p">);</span> <span class="c1">//Convert deciSecond into a string that is right adjusted</span>
+  <span class="c1">//sprintf(tempString, &quot;%d&quot;, deciSecond); //Convert deciSecond into a string that is left adjusted</span>
+  <span class="c1">//sprintf(tempString, &quot;%04d&quot;, deciSecond); //Convert deciSecond into a string with leading zeros</span>
+  <span class="c1">//sprintf(tempString, &quot;%4d&quot;, deciSecond * -1); //Shows a negative sign infront of right adjusted number</span>
+  <span class="c1">//sprintf(tempString, &quot;%4X&quot;, deciSecond); //Count in HEX, right adjusted</span>
+
+  <span class="c1">//Produce an output on the display</span>
+  <span class="n">myDisplay</span><span class="p">.</span><span class="n">DisplayString</span><span class="p">(</span><span class="n">tempString</span><span class="p">,</span> <span class="mi">3</span><span class="p">);</span> <span class="c1">//(numberToDisplay, decimal point location)</span>
+
+  <span class="c1">//Other examples</span>
+  <span class="c1">//myDisplay.DisplayString(tempString, 0); //Display string, no decimal point</span>
+  <span class="c1">//myDisplay.DisplayString(&quot;-23b&quot;, 3); //Display string, decimal point in third position</span>
+
+  <span class="c1">//Check if 10ms has elapsed</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">millis</span><span class="p">()</span> <span class="o">-</span> <span class="n">timer</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">)</span>
+  <span class="p">{</span>
+    <span class="n">timer</span> <span class="o">=</span> <span class="n">millis</span><span class="p">();</span>
+    <span class="n">deciSecond</span><span class="o">++</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="n">delay</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>GUI:</p>
+<img alt="_images/generated_SevSeg_Counter.png" src="_images/generated_SevSeg_Counter.png" />
+<p>Signals:</p>
+<img alt="_images/gtkwave_id0.png" src="_images/gtkwave_id0.png" />
+</div>
+</div>
+<div class="section" id="library-size-estimation">
+<h2>Library size estimation<a class="headerlink" href="#library-size-estimation" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Program bytes</th>
+<th class="head">Data bytes</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2556</td>
+<td>79</td>
+</tr>
+</tbody>
+</table>
+<p>The size is calculated as a difference of example program and minimal program:</p>
+<p>Library size = example program size - minimal program size</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">SevSeg</a><ul>
+<li><a class="reference internal" href="#examples">Examples</a><ul>
+<li><a class="reference internal" href="#snippets">Snippets</a></li>
+<li><a class="reference internal" href="#full-programs">Full programs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#library-size-estimation">Library size estimation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="#">SevSeg  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright .
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
