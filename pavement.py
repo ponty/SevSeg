@@ -3,7 +3,11 @@ import csv
 import paver.doctools
 import paver.misctasks
 sys.path.insert(0, path('.').abspath())
-from simulator import *
+
+try:
+    import simulator 
+except ImportError:
+    pass
 
 try:
     from paved import *
@@ -112,7 +116,7 @@ def libsize():
 @task
 def example():
     'start first example'
-    run_sim(
+    simulator.run_sim(
         code=open(code_examples[0]).read(),
         # timeout=timeout,
         vcdfile=None,
